@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+h1{
+	color:red;
+	text-shadow:darkgray 20px 10px 5px;
+}
+
+.aaa{
+	color:green;
+	text-shadow:black 1px 1px 2px, navy 0 0 0.3em;
+	background-image: url("../img/wood.jpg");
+}
+
+td, th{
+	border:2px black solid;
+	padding:10px;
+}
+
+div{
+	margin: auto;
+	padding: 20px;
+}
+
+#sample0{
+	-webkit-border-image: url("../img/frame.jpg")55 / 20px 20px ;
+}
+
+#sample1{
+	padding: 2em;
+	background-color: #ff0033;
+	font-family: Helvetica, sans-serif;
+	fomt-weight: bold;
+	text-align: center;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 2s;
+}
+#sample1:hover{
+	background-color: #ffff33;
+}
